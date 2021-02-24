@@ -60,10 +60,26 @@
     transition: background-color 0.2s;
 }
 
-.countDownButton:hover{
+.countDownButton:not(:disabled):hover{
     background: var(--blue-dark);
 }
 
 .countDownButton:focus{
     outline: none;
+}
+
+.active{
+    background: var(--white);
+    color: var(--title);
+}
+
+.countDownButton.active:hover{
+    background: var(--red);
+    color: var(--white);
+}
+
+.countDownButton:disabled{
+    cursor: not-allowed;
+    background: var(--white);
+    color: var(--text);
 }
