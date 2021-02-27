@@ -29,11 +29,11 @@ Elementos como notificações sonoras e de pop-up foram utilizados assim que os 
 
 Para rodar o move.it localmente você deve:
 
--- No local de npm você pode utilizar o package manager de sua preferência
-
 ```
 git clone https://github.com/Fernanda-Kipper/MoveIt.git project_name
 cd project_name
 npm install
 npm start
 ```
+
+->No local de npm você pode utilizar o package manager de sua preferência
