@@ -15,7 +15,7 @@ Esse ciclo, após inciado, só pode ser parado se você abandoná-lo, não há p
 
 Após terminado o ciclo completo, você receberá um desafio para completar, sempre algo relacionado ao seu bem-estar, vamos lá Move It!
 
-<img src="/public/screenshots/congratis.png" alt="Párabéns">
+<img src="/public/screenshots/congrats.png" alt="Párabéns">
 
 Se você completar o desafio, receberá o XP equivalemente a aquele desafio, e, quando alcançar o XP necessário para subir de nível, será parabenizado e passará pro próximo level
 
