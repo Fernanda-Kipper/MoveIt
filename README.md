@@ -1,33 +1,43 @@
-<img src="/public/logo-full.svg" alt="Logo">
+<h1 align="center"><img src="/public/logo-full.svg" width="300px"></h1>
 
-## O Projeto
+<p align="center">
+ <a href="#project">Projeto</a> •
+ <a href="#tech">Tecnologias</a> • 
+ <a href="#build">Construção</a> • 
+ <a href="#clone">Clone</a> • 
+ <a href="#license">License</a>
+</p>
 
-O move.it foi a aplicação desenvolvida durante a quarta edição da [Next Level Week](https://rocketseat.com.br/) na trilha de [React JS](https://pt-br.reactjs.org/).
+
+<h2 id="project">Move It</h2>
+
+O move.it foi a aplicação desenvolvida durante a quarta edição da [Next Level Week](https://rocketseat.com.br/) na trilha de React JS.
 "A ideia do move.it é ajudar pessoas que ficam muito tempo na frente do computador e se esquecem de movimentar-se. Por isso o nome Move.it"
 
-## Como funciona o app?
+<p align="center">
+   <img width="400" style="border-radius: 10px" src="/public/screenshots/main.png" />
+   <img width="400" style="border-radius: 10px" src="/public/screenshots/challenge.png" />
+   <img width="400" style="border-radius: 10px" src="/public/screenshots/congrats.png" />
+</p>
 
-Ao entrar no App você pode iniciar um novo ciclo de foco/trabalho de 25 minutos - seguindo a [Técnica de Pomodoro](https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro)
 
-<img src="/public/screenshots/main.png" alt="Página inicial">
+<h2 id="tech" >Tecnologias</h2>
 
-Esse ciclo, após inciado, só pode ser parado se você abandoná-lo, não há pauses
+- Next JS
 
-<img src="/public/screenshots/challenge.png" alt="Novo Desafio">
+- React JS
 
-Após terminado o ciclo completo, você receberá um desafio para completar, sempre algo relacionado ao seu bem-estar, vamos lá Move It!
+- JavaScript
 
-<img src="/public/screenshots/congrats.png" alt="Párabéns">
+- HTML
 
-Se você completar o desafio, receberá o XP equivalemente a aquele desafio, e, quando alcançar o XP necessário para subir de nível, será parabenizado e passará pro próximo level
+- CSS
 
-## Como foi desenvolvido?
+<h2 id="build" >Construção</h2>
 
-O move it foi construído com [Next JS](https://nextjs.org/), para manipular os desafios e countdown foram utilizados contextos pois tais informações eram requiridas por vários componentes em tela. 
-Além disso, para salvar os dados de nível, experiência e desafios completos do usuário, utilizamos o storage de cookies pois utilizamos SSR ( Server Side Rendering ) e essas informações de cookies podem ser acessadas pelo Servidor, diferente do Local Storage. 
-Elementos como notificações sonoras e de pop-up foram utilizados assim que os ciclos são finalizados para alertar o usuário que é o momento de realizar uma pausa.
+Nesse projeto, pratiquei muito o uso de Hooks, controlando os estados da página e acionando efeitos colaterais a cada novo alcance de nível do usuário. Além disso, muitos componentes precisam acessar as mesmas informações, dessa forma, o problema foi resolvido aplicando contextos, como o do Count Down e dos Desafios do usuário.
 
-## Rodando localmente
+<h2 id="clone" >Clone</h2>
 
 Para rodar o move.it localmente em modo desenvolvimento você deve:
 
@@ -36,6 +46,13 @@ git clone https://github.com/Fernanda-Kipper/MoveIt.git project_name
 cd project_name
 npm install
 npm start
+# Abra o localhost
+http://localhost:3000/
 ```
 
 No local de npm você pode utilizar o package manager de sua preferência
+
+<h2 id="license">Licença</h2>
+
+Esse projeto está sob a licença [MIT](LICENSE)
+
